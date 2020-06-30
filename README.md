@@ -8,7 +8,7 @@ concept can have parents, children and relationships with other concepts.
 # What does this program do?
 My program takes a concept ID and outputs the parents, children and relationship groups that the given medical term has. 
 
-#How does it work?
+# How does it work?
 The program uses text files containing the data from the Snomed CT database. In the config.json file you can put the paths to the data from the three snomed CT files: Concepts, Descriptions and Relationships. 
 
 # What I learned
