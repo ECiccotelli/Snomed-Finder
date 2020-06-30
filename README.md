@@ -1,5 +1,5 @@
 # Snomed-Finder
-A program designed using Snomed CT data to list the parents, children and attribute groups of a given concept ID. 
+A program designed using Snomed CT data to list the parents, children and attribute groups of a given concept ID. Snomed CT can be found here: https://browser.ihtsdotools.org/?
 
 # What is Snomed CT?
 Snomed CT is a database designed for referencing medical terminology and the relationships between medical terms and descriptions. Each term is called a concept, and each
@@ -11,10 +11,11 @@ My program takes a concept ID and outputs the parents, children and relationship
 #How does it work?
 The program uses text files containing the data from the Snomed CT database. In the config.json file you can put the paths to the data from the three snomed CT files: Concepts, Descriptions and Relationships. 
 
-#What I learned
+# What I learned
 * How to properly design and implement object oriented techniques to handle and analyze large sets of data. 
 * Optimize efficiency and runtime using large data sets
 * Analyze the relationships between data in large data sets
 
-Snomed CT can be found here: 
-https://browser.ihtsdotools.org/?
+# Example Input/Output
+
+
