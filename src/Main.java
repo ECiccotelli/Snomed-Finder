@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) throws java.io.IOException
     {
         //Paths to data
-        String rPath = "C:\\Users\\Richard\\Desktop\\cmpgproject\\relationships.txt";
-        String dPath = "C:\\\\Users\\\\Richard\\\\Desktop\\\\cmpgproject\\\\descriptions.txt";
-        String cPath = "C:\\Users\\Richard\\Desktop\\cmpgproject\\concepts.txt";
+        String rPath = "";
+        String dPath = "";
+        String cPath = "";
         Concept c = new Concept(cPath);
 
         Description d = new Description(dPath);
