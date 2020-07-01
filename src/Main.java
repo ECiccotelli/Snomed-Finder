@@ -6,7 +6,7 @@ public class Main {
     {
         //Paths to data
         String rPath = "C:\\Users\\Richard\\Desktop\\cmpgproject\\relationships.txt";
-        String dPath = "C:\\\\Users\\\\Richard\\\\Desktop\\\\cmpgproject\\\\descriptions.txt";
+        String dPath = "C:\\Users\\Richard\\Desktop\\cmpgproject\\descriptions.txt";
         String cPath = "C:\\Users\\Richard\\Desktop\\cmpgproject\\concepts.txt";
         Concept c = new Concept(cPath);
 
