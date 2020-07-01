@@ -18,4 +18,10 @@ The program uses text files containing the data from the Snomed CT database. In 
 
 # Example Input/Output
 
+https://github.com/ECiccotelli/Snomed-Finder/blob/master/resources/171221008.PNG
+
+https://github.com/ECiccotelli/Snomed-Finder/blob/master/resources/423998007.PNG
+
+https://github.com/ECiccotelli/Snomed-Finder/blob/master/resources/732967004.PNG
+
 
