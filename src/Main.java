@@ -1,13 +1,25 @@
 import java.util.Scanner;
 import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) throws java.io.IOException
     {
-        //Paths to data. ENTER PATHS TO DATA HERE
-        String rPath = "";
-        String dPath = "";
-        String cPath = "";
+        //Paths to data. User will enter paths to data files here
+
+        Scanner fileUserInput = new Scanner(System.in);
+
+        System.out.print("Enter path for Concept file: ");
+        String cPath = fileUserInput.nextLine();
+
+        System.out.print("Enter path for Description file: ");
+        String dPath = fileUserInput.nextLine();
+
+        System.out.print("Enter path for Relationship file: ");
+        String rPath = fileUserInput.nextLine();
+
+
+
         Concept c = new Concept(cPath);
 
         Description d = new Description(dPath);
